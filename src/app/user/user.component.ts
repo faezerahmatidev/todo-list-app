@@ -23,7 +23,7 @@ export class UserComponent {
   // avatar = input.required<string>();
   // name = input.required<string>();
 
-  @Output() select = new EventEmitter();
+  @Output() select = new EventEmitter<string>();
   // select = output<string>();
 
   // imagePath = computed(() => `../../assets/users/${this.avatar()}`);
